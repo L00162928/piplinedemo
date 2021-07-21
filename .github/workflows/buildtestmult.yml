@@ -5,7 +5,7 @@ name: Java CI with Maven Test
 
 on:
   schedule:
-    - cron:  '5 * * * *'
+    - cron:  '00 16 * * 1-5'
   push:
     branches: [ main ]
   pull_request:
